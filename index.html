@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="app.js"></script>
+</head>
+
+<body class="text-center">
+    <div class="w-96 mx-auto bg-orange-200 border-black border-solid border-2 rounded mt-6 ">
+        <form>
+            <input class="border-black border-solid border-2 rounded pr-8 m-1 text-left " id="name" type="text" placeholder="Name">
+            <br>
+            <input class="border-black border-solid border-2 rounded pr-8 m-1 text-left " id="pwd" type="password" name="password" placeholder="Password">
+            <br>
+            
+            <p id="messageLC"></p>
+            <p id="messageUC"></p>
+            <p id="messageNC"></p>
+            <p id="messageLcC"></p>
+                       
+        </form>
+        <br>
+        <button class="border-black border-solid border-2 rounded bg-green-500 text-white px-20 mb-3 drop-shadow-lg" onclick="lowerCase();upperCase();numb();lgh()">Click me</button>
+          
+    </div>
+    
+
+    
+    </script>
+</body>
+</html>
